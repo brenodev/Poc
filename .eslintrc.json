@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "standard-react"],
+  "plugins": ["jest"],
+  "env": {
+    "jest": true
+  },
+  "globals": { 
+    "fetch": false,
+    "alert": false
+  }
+}
